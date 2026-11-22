@@ -11,7 +11,7 @@ jobs:
 
       - name: Unzip
         run: |
-          unzip filename.zip -d extracted
+          unzip gym-source-package.zip -d extracted
 
       - name: Commit extracted files
         run: |
